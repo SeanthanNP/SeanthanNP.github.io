@@ -1,0 +1,76 @@
+/* Base styles */
+body {
+    background-color: #1A1A29;
+    color: #7562E0; /* Set default text color to violet */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    border: 10px solid #918983;
+}
+
+/* Navbar styles */
+.navbar-violet {
+    background-color: #F0F0F0; /* Set navbar background color to pale white */
+    color: #7562E0; /* Set navbar text color to violet */
+    padding: 10px;
+}
+
+/* Link styles */
+.navbar-violet a {
+    color: #7562E0; /* Set link color to violet */
+    text-decoration: none;
+}
+
+/* Button styles */
+.bg-violet {
+    background-color: #7562E0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/* Contact section styles */
+.contact-icons {
+    text-align: center; /* Center align the content */
+}
+
+/* Add space between contact icons */
+.contact-icons a {
+    margin: 0 10px; /* Add space on left and right of each icon */
+    display: inline-block; /* Ensure icons are displayed in a line */
+}
+
+/* Hover effect for buttons */
+.bg-violet:hover {
+    background-color: #5b48c2;
+}
+
+/* Text color styles */
+.clr-violet {
+    color: #7562E0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    /* Navbar styles for small screens */
+    .navbar-violet {
+        padding: 5px;
+    }
+
+    /* Button styles for small screens */
+    .bg-violet {
+        padding: 8px 16px;
+    }
+}
+
+/* Larger screens */
+@media (min-width: 1200px) {
+    /* Navbar styles for larger screens */
+    .navbar-violet {
+        padding: 15px;
+    }
+
+    /* Button styles for larger screens */
+    .bg
+
